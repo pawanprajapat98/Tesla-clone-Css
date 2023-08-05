@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Electric Cars, Solar & Clean Energy | Tesla</title>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
+</head>
+<body>
+<div id="main">
+    <!-- section-1--------------------------------------------------------------------------------------------->
+   <section class="sec-1">
+      <!-- header......................................................................... .............. -->
+        <header id="header">
+              <img class="logo" src="/image/logo.svg" alt="">
+            <ul>
+                <li>
+                    <a href="">Model S</a>
+                </li>
+                <li>
+                    <a href="">Model 3</a>
+                </li>
+                <li>
+                    <a href="">Model X</a>
+                </li>
+                <li>
+                    <a href="">Model Y</a>
+                </li>
+                <li>
+                    <a href="">Solar Roof</a>
+                </li>
+                <li>
+                    <a href="">Solar Panels</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">Shop</a>
+                </li>
+                <li>
+                    <a href="">Account</a>
+                </li>
+                <li>
+                    <a  href="" onclick="opened()">Menu</a>
+                </li>
+            </ul>
+        </header>
+        <!-- sidebar----------------------------------------------------------------------------------------------------  -->
+        <div class="sidebar" id="mysidebar"> 
+                <ul>
+                     <div class="cross">
+                        <i style="font-size: 1.5rem;" onclick="closed()" class="fa-solid fa-xmark"></i>
+                     </div> 
+                     <li><a href="">Modal S</a></li>
+                     <li> <a href="">Modal 3</a></li>
+                     <li> <a href="">Modal X</a></li>
+                     <li> <a href="">Modal Y</a></li>
+                     <li><a href="">Solar Roof</a></li>
+                     <li><a href="">Solar Panel</a></li>
+                     <li><a href="">Existing Inventory</a></li>
+                     <li><a href="">Used Inventory</a></li>
+                     <li><a href="">Trade In</a></li>
+                     <li><a href="">Test Drive</a></li>
+                     <li><a href="">Powerwall</a></li>
+                     <li><a href="">Commercial Energy</a></li>
+                </ul>   
+        </div> 
+        
+         <div class="center"> 
+            <div class="top">  
+                <div class="modal-3">
+                    <h1>Model 3</h1>
+                    <p>Order Online for touchless delivery</p>
+                </div>
+            </div> 
+            <div class="bottom">
+                <div class="button">
+                        <button type="button" class="btn-1">CUSTOM ORDER</button>
+                        <button type="button" class="btn-2">EXISTING INVENTORY</button>
+                </div>
+                <div class="icon">
+                        <i class="fa-solid fa-chevron-down fa-bounce"></i>
+                </div>
+           </div> 
+        </div>    
+   </section>  
+   <!-- section-2-----------------------------------------------------------------------------------------------------------   -->
+   <section class="sec-2">
+                <div class="modal-3">
+                        <h1>Model Y</h1>
+                        <p>Order Online for touchless delivery</p>
+                </div>
+                <div class="button">
+                        <button class="btn-1">CUSTOM ORDER</button>
+                        <button class="btn-2">EXISTING INVENTORY</button>
+                </div>
+   </section>
+   
+   <!-- section-3-----------------------------------------------------------------------------------------------------------   -->
+   <section class="sec-3">
+                <div class="modal-3">
+                        <h1>Model S</h1>
+                        <p>Order Online for touchless delivery</p>
+                </div>
+                <div class="button">
+                        <button class="btn-1">CUSTOM ORDER</button>
+                        <button class="btn-2">EXISTING INVENTORY</button>
+                </div>
+   </section>
+   
+   <!-- section-4-----------------------------------------------------------------------------------------------------------   -->
+   <section class="sec-4">
+                <div class="modal-3">
+                        <h1>Model X</h1>
+                        <p>Order Online for touchless delivery</p>
+                </div>
+                <div class="button">
+                        <button class="btn-1">CUSTOM ORDER</button>
+                        <button class="btn-2">EXISTING INVENTORY</button>
+                </div>
+   </section>
+   
+   <!-- section-5-----------------------------------------------------------------------------------------------------------   -->
+   <section class="sec-5">
+                <div class="modal-3">
+                        <h1>Solar Panels</h1>
+                        <p>Lower Cost Solar Panels in India</p>
+                </div>
+                <div class="button">
+                        <button class="btn-1">ORDER NOW</button>
+                        <button class="btn-2">LEARN MORE</button>
+                </div>
+   </section>
+   
+   <!-- section-6-----------------------------------------------------------------------------------------------------------   -->
+   <section class="sec-6">
+                <div class="modal-3">
+                        <h1>Solar Roof</h1>
+                        <p> Produce Clean Energy from your roof</p>
+                    
+                </div>
+                <div class="button">
+                        <button class="btn-1">ORDER NOW</button>
+                        <button class="btn-2">LEARN MORE</button>
+                </div>
+   </section>
+   
+   <!-- section-6-----------------------------------------------------------------------------------------------------------   -->
+   <section class="sec-7">
+                <div class="modal-3">
+                        <h1>Accessories</h1>
+                </div>
+                <div class="button">
+                        <button class="btn-1">ORDER NOW</button>
+                        
+                </div>
+   </section>
+</div>
+<script>
+        function opened(){
+          document.getElementById('mysidebar').style.width='300px';
+          event.preventDefault();
+        }
+        
+        function closed(){
+          document.getElementById("mysidebar").style.width='0';
+          event.preventDefault();
+        }
+
+       
+</script>
+</body>
+</html>

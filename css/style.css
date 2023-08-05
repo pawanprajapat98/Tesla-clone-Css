@@ -1,0 +1,514 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header in section-1------------------------------------------------------------------- */
+.sec-1  header
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 3.8rem;
+    padding: 0 2rem;
+}
+.sec-1  .logo
+{
+    width: 6.2rem;
+    height: 1.5rem;  
+}
+header ul li
+{
+    list-style: none;
+
+}
+header ul li a
+{
+    text-decoration: none;
+    padding : 0 0.8rem;
+    font-family: "roboto",sans-serif;
+    font-weight:500;
+    color:black;
+}
+header  ul
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.sec-1 
+{
+    background-image: url("/image/model-3.jpg");
+    height: 745px;
+    background-size:cover ;
+    background-position: center;     
+}
+/* side manu bar------------------------------------------------------------------------------------------ */
+.sidebar
+{
+    width: 0px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:1 ;
+    transition:all 0.5s;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.sidebar ul
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 20px 40px;
+}
+.sidebar li
+{
+    list-style: none;
+}
+.sidebar a
+{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px 0;
+  transition: 0.3s;
+}
+.sidebar .cross 
+{  
+  display: flex;
+  justify-content: flex-end;
+}
+/* section-1-------------------------------------------------------------------------------------------------------- */
+.sec-1 .center
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    height: 742px;
+}
+.sec-1 .center .top .modal-3
+{
+   text-align: center;
+   padding-top: 7.5rem;
+   font-family: 'roboto', sans-serif;
+}
+.sec-1 .center .top .modal-3 h1
+{
+    font-size: 3rem;
+    font-weight:700;
+}
+.sec-1 .center .top .modal-3 p
+{
+   color:black;
+   margin-top: 5px;
+}
+.sec-1 .center .bottom .button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:3.3rem;
+    
+}
+.sec-1 .center .bottom .btn-1
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 0.8rem;
+    background-color:  rgba(23, 26, 32, 0.7);
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.sec-1 .center .bottom .btn-2
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'rboto',sans-serif;
+    background-color:  rgb(255, 255, 255);
+    margin-left: 0.5rem;
+} 
+.sec-1 .icon
+{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+  
+} 
+/* section-2-------------------------------------------------------------------------------------------------------- */
+.sec-2
+{
+    
+    background-image: url("/image/model-y.jpg");
+    height: 745px;
+    background-size:cover ;
+    background-position: center;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+
+}
+.sec-2 .center
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    height: 742px;
+}
+.sec-2 .modal-3
+{
+   text-align: center;
+   padding-top: 7.5rem;
+   font-family: 'roboto', sans-serif;
+}
+.sec-2 .modal-3 h1
+{
+    font-size: 3rem;
+    font-weight:700;
+}
+.sec-2 .modal-3 p
+{
+    color:black;
+    margin-top: 5px;
+}
+.sec-2 .button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:3.3rem;
+}
+.sec-2 .btn-1
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 0.8rem;
+    background-color:  rgba(23, 26, 32, 0.7);
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.sec-2 .btn-2
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'rboto',sans-serif;
+    background-color:  rgb(255, 255, 255);
+    margin-left: 0.5rem;
+}
+/* section-3-------------------------------------------------------------------------------------------------------- */
+.sec-3
+{
+    
+    background-image: url("/image/model-s.jpg");
+    height: 745px;
+    background-size:cover ;
+    background-position: center;  
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sec-3 .modal-3
+{
+   text-align: center;
+   padding-top: 7.5rem;
+   font-family: 'roboto', sans-serif;
+}
+
+.sec-3 .modal-3 h1
+{
+    font-size: 3rem;
+    font-weight:700;
+}
+.sec-3 .modal-3 p
+{
+    color:black;
+    margin-top: 5px;
+}
+.sec-3 .button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:3.3rem;
+}
+.sec-3 .btn-1
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 0.8rem;
+    background-color:  rgba(23, 26, 32, 0.7);
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.sec-3 .btn-2
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'rboto',sans-serif;
+    background-color:  rgb(255, 255, 255);
+    margin-left: 0.5rem;
+}
+/* section-4-------------------------------------------------------------------------------------------------------- */
+.sec-4
+{
+    
+    background-image: url("/image/model-x.jpg");
+    height: 745px;
+    background-size:cover ;
+    background-position: center;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+
+}
+.sec-4 .modal-3
+{
+   text-align: center;
+   padding-top: 7.5rem;
+   font-family: 'roboto', sans-serif;
+}
+
+.sec-4 .modal-3 h1
+{
+    font-size: 3rem;
+    font-weight:700;
+}
+.sec-4 .modal-3 p
+{
+    color:black;
+    margin-top: 5px;
+}
+.sec-4 .button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:3.3rem;
+}
+.sec-4 .btn-1
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 0.8rem;
+    background-color:  rgba(23, 26, 32, 0.7);
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.sec-4 .btn-2
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'rboto',sans-serif;
+    background-color:  rgb(255, 255, 255);
+    margin-left: 0.5rem;
+}
+/* section-5-------------------------------------------------------------------------------------------------------- */
+.sec-5
+{
+    
+    background-image: url("/image/solar-panel.jpg");
+    height: 745px;
+    background-size:cover ;
+    background-position: center;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+
+}
+.sec-5 .modal-3
+{
+   text-align: center;
+   padding-top: 7.5rem;
+   font-family: 'roboto', sans-serif;
+}
+
+.sec-5 .modal-3 h1
+{
+    font-size: 3rem;
+    font-weight:700;
+}
+.sec-5 .modal-3 p
+{
+    color:black;
+    margin-top: 5px;
+}
+.sec-5 .button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:3.3rem;
+}
+.sec-5 .btn-1
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 0.8rem;
+    background-color:  rgba(23, 26, 32, 0.7);
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.sec-5 .btn-2
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'rboto',sans-serif;
+    background-color:  rgb(255, 255, 255);
+    margin-left: 0.5rem;
+}
+/* section-6-------------------------------------------------------------------------------------------------------- */
+.sec-6
+{
+    
+    background-image: url("/image/solar-roof.jpg");
+    height: 745px;
+    background-size:cover ;
+    background-position: center;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+
+}
+.sec-6 .modal-3
+{
+   text-align: center;
+   padding-top: 7.5rem;
+   font-family: 'roboto', sans-serif;
+}
+
+.sec-6 .modal-3 h1
+{
+    font-size: 3rem;
+    font-weight:700;
+}
+.sec-6 .modal-3 p
+{
+    color:black;
+    margin-top: 5px;
+}
+.sec-6 .button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:3.3rem;
+}
+.sec-6 .btn-1
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 0.8rem;
+    background-color:  rgba(23, 26, 32, 0.7);
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.sec-6 .btn-2
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    font-family: 'rboto',sans-serif;
+    background-color:  rgb(255, 255, 255);
+    margin-left: 0.5rem;
+}
+/* section-7-------------------------------------------------------------------------------------------------------- */
+.sec-7
+{
+    
+    background-image: url("/image/accessories.jpg");
+    height: 745px;
+    background-size:cover ;
+    background-position: center;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+
+}
+.sec-7 .button
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 2.5rem;
+    
+}
+.sec-7 .btn-1
+{
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 6.2rem;
+    border:none;
+    color:rgb(255, 255, 255);
+    font-size: 0.8rem;
+    background-color:  rgba(23, 26, 32, 0.7);
+    
+}
+.sec-7 .modal-3
+{
+    
+        text-align: center;
+        padding-top: 7.5rem;
+        font-family: 'roboto', sans-serif;
+    
+}
+.sec-7 .modal-3 h1
+{
+    font-size: 3rem;
+    font-weight:700;
+}
